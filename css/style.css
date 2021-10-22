@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 :root {
@@ -30,11 +31,75 @@ body {
 
 /* nav rules */
 
-.nav {
+.nav-container {
     width: 100%;
     height: 4em;
-    background-color: red;
 }
+
+.nav-container-left {
+    width: 37%;
+    height: 100%;
+    float: left;
+}
+
+.nav-container-right {
+    width: 37%;
+    height: 100%;
+    float: right;
+}
+
+.nav-container-left img {
+    height: 20px;
+    vertical-align: middle;
+    margin-top: 25px;
+}
+
+.nav-container-left ul {
+    display: inline;
+}
+
+.nav-container-right  ul li,
+.nav-container-left  ul li {
+    display: inline;
+    vertical-align: bottom;
+    margin-left: 3em;
+    padding: 1.1em 0;
+}
+
+.nav-container-right ul li {
+    line-height: 4em;
+    padding: 1.2em 0;
+}
+
+
+.nav-container-right ul li:hover,
+.nav-container-left  ul li:hover {
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+.nav-container-right  ul li a,
+.nav-container-left  ul li a {
+    color: black;
+    font-size: 0.7em;
+    text-decoration: none;
+}
+
+.btnblue {
+    font-size: 0.7em;
+    color: white;
+    padding: 5px 15px;
+    background-color: var(--btn-color);
+    border: none;
+    margin-bottom: 20px;
+}
+
+.btnblue:hover {
+    box-shadow:  2px 2px 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+
 
 /* jumbotron rules */
 

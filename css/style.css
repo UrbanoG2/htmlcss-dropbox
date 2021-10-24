@@ -366,21 +366,60 @@ hr {
 
 .functions-container {
     width: 70%;
-    height: 800px;
-    margin: 0 auto;
+    height: 1250px;
+    margin: 10% auto;
 }
 
 .functions-title {
     width: 100%;
     height: 12%;
-    background-color: crimson;
+}
+
+.functions-title h2 {
+    font-size: 2em;
 }
 
 .functions-grill {
     width: 100%;
     height: 88%;
-    background-color: lightgreen;
 }
+
+.element-container {
+    width: calc(100% / 3 - 5%);
+    height: 45%;
+    float: left;
+    margin-bottom: 5%;
+}
+
+
+.element-img img{
+    width: 100%;
+}
+
+.element-title h3 {
+    font-size: 1.5em;
+}
+
+.element-paragraph p {
+    font-size: 0.9em;
+    margin-top: 2em;
+    line-height: 1.5em;
+}
+
+#dropbox-paper {
+    text-decoration: underline;
+}
+
+.element-container-middle{
+    width: calc(100% / 3 - 5%);
+    height: 45%;
+    float: left;
+    margin: 0 5%;
+}
+
+
+
+
 
 /* fourth section rules */
 

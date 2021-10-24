@@ -426,14 +426,26 @@ hr {
 .clients-container {
     width: 100%;
     height: 800px;
-    background-color: darkgoldenrod;
 }
 
-.clients-container .spam {
+.clients-container .clients-number {
     width: 70%;
     height: 20%;
-    background-color: darkorchid;
     margin: 0 auto;
+}
+
+.clients-number h2 {
+    font-size: 2em;
+    width: 50%;
+}
+
+.clients-number span {
+    display: block;
+    margin-top: 2%;
+}
+
+.clients-number span a {
+    color: var(--btn-color);
 }
 
 .clients-container .logos {

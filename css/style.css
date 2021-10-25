@@ -516,7 +516,6 @@ hr {
     float: left;
     width: 40%;
     height: 100%;
-    border: 1px solid black;
 }
 
 .client-text-container {
@@ -538,12 +537,31 @@ hr {
     line-height: 25px;
 }
 
-.clients-container .final-spam {
+.clients-container .call{
     width: 100%;
     height: 30%;
     background-color: var(--bg-color);
 }
 
+.call h2 {
+    font-size: 2em;
+    width: 30%;
+    color: RGB(97, 8, 43);
+    padding: 2.5em 0;
+    margin-left: 7em;
+    display: inline-block;
+}
+
+
+.call .btnblue {
+    color: black;
+    background-color: white;
+    padding: 10px 65px;
+    font-size: 0.9em;
+    position: relative;
+    left: 20%;
+    bottom: 20%;
+}
 
 
 /* fifth section */

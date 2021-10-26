@@ -640,10 +640,23 @@ hr {
     cursor: pointer;
 }
 
+.question:hover span{
+    display: block;
+}
 
+.question:hover .angle-down{
+    display: none;
+}
+
+.angle-up,
 .angle-down {
     float: right;
 }
+
+.angle-up {
+    display: none;
+}
+
 
 
 /* /main rules */

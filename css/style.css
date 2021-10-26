@@ -628,7 +628,7 @@ hr {
     font-weight: bold;
 }
 
-.question::after .answer {
+.question .answer {
     display: none;
     /* display: inline-block; */
     font-size: 0.7em;

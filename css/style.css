@@ -178,7 +178,6 @@ body {
 
 .section-title {
     width: 100%;
-    height: 10%;
 }
 
 .section-title h2 {
@@ -198,7 +197,7 @@ body {
 
 .col {
     width: calc(100% / 3 - 2em);
-    height: 80%;
+    min-height: 80%;
     border: 1px solid black;
     float: left;
 
@@ -462,9 +461,12 @@ hr {
     float: left;
 }
 
+
+
 .img_small_container {
+    clear: right;
     width: 50%;
-    height: 50%;
+    height: 4em;
     position: relative;
     float: left;
 }
